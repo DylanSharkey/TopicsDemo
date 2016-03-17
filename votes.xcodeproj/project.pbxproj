@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92AF07E81F0A96E90A8EF3F1 /* Pods_votes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B09CA5E038C1C9AB0C1934BE /* Pods_votes.framework */; };
+		FCA82AD41C9B4D61002E6BC5 /* topicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA82AD31C9B4D61002E6BC5 /* topicCell.swift */; };
+		FCA82AD61C9B4EC0002E6BC5 /* DetailsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA82AD51C9B4EC0002E6BC5 /* DetailsProtocol.swift */; };
+		FCA82AD81C9B51C2002E6BC5 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA82AD71C9B51C2002E6BC5 /* Topic.swift */; };
+		FCA82ADA1C9B54B0002E6BC5 /* tableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA82AD91C9B54B0002E6BC5 /* tableDelegate.swift */; };
+		FCA82ADD1C9B5BCC002E6BC5 /* Topics+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA82ADB1C9B5BCC002E6BC5 /* Topics+CoreDataProperties.swift */; };
+		FCA82ADE1C9B5BCC002E6BC5 /* Topics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA82ADC1C9B5BCC002E6BC5 /* Topics.swift */; };
+		FCDEA82B1C9B4B8500548989 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDEA82A1C9B4B8500548989 /* MainTableViewController.swift */; };
+		FCDEA82F1C9B4C7E00548989 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDEA82E1C9B4C7E00548989 /* AddViewController.swift */; };
 		FCEED4C01C9B4AB000B4CA38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEED4BF1C9B4AB000B4CA38 /* AppDelegate.swift */; };
-		FCEED4C21C9B4AB000B4CA38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEED4C11C9B4AB000B4CA38 /* ViewController.swift */; };
 		FCEED4C51C9B4AB000B4CA38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEED4C31C9B4AB000B4CA38 /* Main.storyboard */; };
 		FCEED4C81C9B4AB000B4CA38 /* votes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCEED4C61C9B4AB000B4CA38 /* votes.xcdatamodeld */; };
 		FCEED4CA1C9B4AB000B4CA38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEED4C91C9B4AB000B4CA38 /* Assets.xcassets */; };
@@ -35,9 +43,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A8C3EF3E61917E948FF0D2B /* Pods-votes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-votes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-votes/Pods-votes.debug.xcconfig"; sourceTree = "<group>"; };
+		B09CA5E038C1C9AB0C1934BE /* Pods_votes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_votes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5DDE33CCF57257614BCBA54 /* Pods-votes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-votes.release.xcconfig"; path = "Pods/Target Support Files/Pods-votes/Pods-votes.release.xcconfig"; sourceTree = "<group>"; };
+		FCA82AD31C9B4D61002E6BC5 /* topicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = topicCell.swift; sourceTree = "<group>"; };
+		FCA82AD51C9B4EC0002E6BC5 /* DetailsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsProtocol.swift; sourceTree = "<group>"; };
+		FCA82AD71C9B51C2002E6BC5 /* Topic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		FCA82AD91C9B54B0002E6BC5 /* tableDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableDelegate.swift; sourceTree = "<group>"; };
+		FCA82ADB1C9B5BCC002E6BC5 /* Topics+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Topics+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FCA82ADC1C9B5BCC002E6BC5 /* Topics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topics.swift; sourceTree = "<group>"; };
+		FCDEA82A1C9B4B8500548989 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		FCDEA82E1C9B4C7E00548989 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		FCEED4BC1C9B4AB000B4CA38 /* votes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = votes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEED4BF1C9B4AB000B4CA38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FCEED4C11C9B4AB000B4CA38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FCEED4C41C9B4AB000B4CA38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCEED4C71C9B4AB000B4CA38 /* votes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = votes.xcdatamodel; sourceTree = "<group>"; };
 		FCEED4C91C9B4AB000B4CA38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92AF07E81F0A96E90A8EF3F1 /* Pods_votes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +95,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3408224404975919E6E5F35C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B09CA5E038C1C9AB0C1934BE /* Pods_votes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		545D32120CE91080BD77A226 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A8C3EF3E61917E948FF0D2B /* Pods-votes.debug.xcconfig */,
+				E5DDE33CCF57257614BCBA54 /* Pods-votes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FCEED4B31C9B4AB000B4CA38 = {
 			isa = PBXGroup;
 			children = (
+				FCA82ADB1C9B5BCC002E6BC5 /* Topics+CoreDataProperties.swift */,
+				FCA82ADC1C9B5BCC002E6BC5 /* Topics.swift */,
 				FCEED4BE1C9B4AB000B4CA38 /* votes */,
 				FCEED4D61C9B4AB000B4CA38 /* votesTests */,
 				FCEED4E11C9B4AB000B4CA38 /* votesUITests */,
 				FCEED4BD1C9B4AB000B4CA38 /* Products */,
+				545D32120CE91080BD77A226 /* Pods */,
+				3408224404975919E6E5F35C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +140,13 @@
 			isa = PBXGroup;
 			children = (
 				FCEED4BF1C9B4AB000B4CA38 /* AppDelegate.swift */,
-				FCEED4C11C9B4AB000B4CA38 /* ViewController.swift */,
 				FCEED4C31C9B4AB000B4CA38 /* Main.storyboard */,
+				FCA82AD31C9B4D61002E6BC5 /* topicCell.swift */,
+				FCA82AD91C9B54B0002E6BC5 /* tableDelegate.swift */,
+				FCA82AD51C9B4EC0002E6BC5 /* DetailsProtocol.swift */,
+				FCDEA82A1C9B4B8500548989 /* MainTableViewController.swift */,
+				FCDEA82E1C9B4C7E00548989 /* AddViewController.swift */,
+				FCA82AD71C9B51C2002E6BC5 /* Topic.swift */,
 				FCEED4C91C9B4AB000B4CA38 /* Assets.xcassets */,
 				FCEED4CB1C9B4AB000B4CA38 /* LaunchScreen.storyboard */,
 				FCEED4CE1C9B4AB000B4CA38 /* Info.plist */,
@@ -135,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCEED4E71C9B4AB000B4CA38 /* Build configuration list for PBXNativeTarget "votes" */;
 			buildPhases = (
+				23103B213A10BA8E8D2A0A81 /* Check Pods Manifest.lock */,
 				FCEED4B81C9B4AB000B4CA38 /* Sources */,
 				FCEED4B91C9B4AB000B4CA38 /* Frameworks */,
 				FCEED4BA1C9B4AB000B4CA38 /* Resources */,
+				C73556EDCE496341319B032F /* Embed Pods Frameworks */,
+				497B66E06B340E6CBC7320CB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,14 +302,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23103B213A10BA8E8D2A0A81 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		497B66E06B340E6CBC7320CB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-votes/Pods-votes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C73556EDCE496341319B032F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-votes/Pods-votes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FCEED4B81C9B4AB000B4CA38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCEED4C21C9B4AB000B4CA38 /* ViewController.swift in Sources */,
+				FCDEA82B1C9B4B8500548989 /* MainTableViewController.swift in Sources */,
+				FCA82ADA1C9B54B0002E6BC5 /* tableDelegate.swift in Sources */,
+				FCA82AD61C9B4EC0002E6BC5 /* DetailsProtocol.swift in Sources */,
+				FCA82ADD1C9B5BCC002E6BC5 /* Topics+CoreDataProperties.swift in Sources */,
+				FCA82AD41C9B4D61002E6BC5 /* topicCell.swift in Sources */,
 				FCEED4C01C9B4AB000B4CA38 /* AppDelegate.swift in Sources */,
+				FCDEA82F1C9B4C7E00548989 /* AddViewController.swift in Sources */,
+				FCA82ADE1C9B5BCC002E6BC5 /* Topics.swift in Sources */,
 				FCEED4C81C9B4AB000B4CA38 /* votes.xcdatamodeld in Sources */,
+				FCA82AD81C9B51C2002E6BC5 /* Topic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +504,7 @@
 		};
 		FCEED4E81C9B4AB000B4CA38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A8C3EF3E61917E948FF0D2B /* Pods-votes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = votes/Info.plist;
@@ -412,6 +516,7 @@
 		};
 		FCEED4E91C9B4AB000B4CA38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5DDE33CCF57257614BCBA54 /* Pods-votes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = votes/Info.plist;
@@ -488,6 +593,7 @@
 				FCEED4E91C9B4AB000B4CA38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCEED4EA1C9B4AB000B4CA38 /* Build configuration list for PBXNativeTarget "votesTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +602,7 @@
 				FCEED4EC1C9B4AB000B4CA38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCEED4ED1C9B4AB000B4CA38 /* Build configuration list for PBXNativeTarget "votesUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +611,7 @@
 				FCEED4EF1C9B4AB000B4CA38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
